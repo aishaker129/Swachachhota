@@ -2,378 +2,449 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
-<body class=" bg-[#000216] container mx-auto my-12">
+<body class=" bg-[#000216] container mx-auto my-12 md:flex md:justify-center">
+  <div class="main">
     <!-- header part start -->
     <header class="bg-[#27272D] max-w-[1340px] rounded-full md:ms-0 ms-[30px]">
-        <div class="navbar flex justify-between items-center text-center  text-white">
-            <div class="logo sm:mx-12 mx-7 my-5">
-                <a href="#"><img src="./images/logo.png" alt="" class="sm:max-w-[182px] w-[150px] max-h-[58px]"></a>
-            </div>
-            
-            <div class="right-12">
-                <ul class="flex gap-5 text-white sm:text-[24px] text-[14px] me-12">
-                    <li class="bg-[#C9B16A] rounded-full sm:px-[50px] px-[20px] py-[8px] text-[#000000]"><a href="#">লগইন</a></li>
-                    <li class="py-[8px]"><a href="#">রেজিস্টার</a></li>
-                </ul>
-            </div>
+      <div class="navbar flex justify-between items-center text-center  text-white">
+        <div class="logo sm:mx-12 mx-7 my-5">
+          <a href="#"><img src="./images/logo.png" alt="" class="sm:max-w-[182px] w-[150px] max-h-[58px]"></a>
         </div>
+
+        <div class="right-12">
+          <ul class="flex gap-5 text-white sm:text-[24px] text-[14px] me-12">
+            <li class="bg-[#C9B16A] rounded-full sm:px-[50px] px-[20px] py-[8px] text-[#000000]"><a href="#">লগইন</a>
+            </li>
+            <li class="py-[8px]"><a href="#">রেজিস্টার</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
     <!-- header part end -->
-    <section class="flex justify-center my-20">
-        <div class="container text-white md:w-[760px] w-[500px] md:h-[420px] ">
-            <div class="contain w-full">
-                <div class="md:text-center text-center space-y-5 ms-[20px]">
-                    <p class="md:text-6xl text-4xl  font-extrabold text-[#C9B16A]">“দুর্নীতিমুক্ত ভবিষ্যতের</p>
-                    <p class="md:text-6xl text-4xl font-extrabold">পথে একসাথে এগিয়ে চলি”</p>
-                </div>
-                <div class="md:text-center text-center mt-5 ms-[20px]">
-                    <p class="md:text-[24px] text-[18px]"><small class="md:text-[24px] text-[18px] text-[#C9B16A]">স্বচ্ছতা নিশ্চিত করার জন্য আপনার
-                            ভূমিকা অপরিহার্য।</small> এখনই রিপোর্ট করুন বা</p>
-                    <p class="md:text-[24px] text-[18px]">আমাদের কমিউনিটির সাথে যুক্ত হন।</p>
-                </div>
-                <div class="relative md:w-full w-[400px] md:ms-0 ms-[20px] mt-5">
-                    <input type="search" name="" id="" placeholder="প্রকল্প বা রিপোর্ট আইডি দিয়ে অনুসন্ধান করুন..." required
-                    class="md:w-full w-[400px] h-[70px] py-2.5 px-4 rounded-full text-gray-400 bg-gray-800 focus:outline-none focus:ring-2 focus:ring-yellow-500 placeholder-gray-500">
-                    <button
-                        class="absolute top-1/2 right-3 transform -translate-y-1/2 text-yellow-500 hover:text-yellow-400">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 md:me-7" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M21 21l-4.35-4.35m0 0a7 7 0 111.414-1.414l4.35 4.35z" />
-                        </svg>
-                    </button>
-                </div>
+    <section class="flex justify-center my-20 max-w-[1340px]">
+      <div class="container text-white md:w-[760px] w-[500px] md:h-[420px] ">
+        <div class="contain w-full">
+          <div class="md:text-center text-center space-y-5 ms-[20px]">
+            <p class="md:text-6xl text-4xl  font-extrabold text-[#C9B16A]">“দুর্নীতিমুক্ত ভবিষ্যতের</p>
+            <p class="md:text-6xl text-4xl font-extrabold">পথে একসাথে এগিয়ে চলি”</p>
+          </div>
+          <div class="md:text-center text-center mt-5 ms-[20px]">
+            <p class="md:text-[24px] text-[18px]"><small class="md:text-[24px] text-[18px] text-[#C9B16A]">স্বচ্ছতা
+                নিশ্চিত করার জন্য আপনার
+                ভূমিকা অপরিহার্য।</small> এখনই রিপোর্ট করুন বা</p>
+            <p class="md:text-[24px] text-[18px]">আমাদের কমিউনিটির সাথে যুক্ত হন।</p>
+          </div>
+          <div class="relative md:w-full w-[400px] md:ms-0 ms-[20px] mt-5">
+            <input type="search" name="" id="" placeholder="প্রকল্প বা রিপোর্ট আইডি দিয়ে অনুসন্ধান করুন..." required
+              class="md:w-full w-[400px] h-[70px] py-2.5 px-4 rounded-full text-gray-400 bg-gray-800 focus:outline-none focus:ring-2 focus:ring-yellow-500 placeholder-gray-500">
+            <button class="absolute top-1/2 right-3 transform -translate-y-1/2 text-yellow-500 hover:text-yellow-400">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 md:me-7" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 21l-4.35-4.35m0 0a7 7 0 111.414-1.414l4.35 4.35z" />
+              </svg>
+            </button>
+          </div>
 
-                <div class="my-7 md:flex md:justify-center w-full ms-5 text-center">
-                    <a href="#" class="sm:text-[24px] text-[18px] text-[#000000] bg-[#C9B16A] rounded-full sm:px-6 px-3 py-3">দুর্নীতি রিপোর্ট</a>
-                    <a href="#" class="sm:text-[24px] text-[18px] text-[#000000] bg-[#ffffff] rounded-full sm:px-6 px-3 py-3">মেগা প্রকল্প দেখুন</a>
-                </div>
-            </div>
+          <div class="my-7 md:flex md:justify-center w-full ms-5 text-center">
+            <a href="#"
+              class="sm:text-[24px] text-[18px] text-[#000000] bg-[#C9B16A] rounded-full sm:px-6 px-3 py-3">দুর্নীতি
+              রিপোর্ট</a>
+            <a href="#"
+              class="sm:text-[24px] text-[18px] text-[#000000] bg-[#ffffff] rounded-full sm:px-6 px-3 py-3">মেগা প্রকল্প
+              দেখুন</a>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section class="container mx-auto max-w-[1340px]">
-        <div class="title container w-full md:text-center text-center text-white">
-            <h1 class="text-4xl font-extrabold">স্বচ্ছতার ফিচারসমূহ</h1>
+    <section class="max-w-[1340px]">
+      <div class="title container w-full md:text-center text-center text-white">
+        <h1 class="text-4xl font-extrabold">স্বচ্ছতার ফিচারসমূহ</h1>
+      </div>
+      <div class="container mx-auto text-white md:grid lg:grid-cols-3 md:grid-cols-2 gap-5 ms-5 md:mt-10 mt-10">
+        <div class="card-1 max-w-[380px] h-[280px] rounded-[60px] bg-[#0D0F22]">
+          <div class="text-center md:mt-10">
+            <h1 class="text-4xl font-extrabold md:pt-0 pt-10">*রিপোর্ট*</h1>
+            <p class="text-2xl font-extrabold mt-5">"দুর্নীতি সম্পর্কে আপনার রিপোর্ট </p>
+            <p class="text-2xl font-extrabold">জমা দিন এবং সুরক্ষিত থাকুন।"</p>
+          </div>
+          <div class="text-center mt-6">
+            <a href="#"><button class="w-[80%] h-[50px] rounded-full bg-[#AD8C4C] text-2xl">এখন রিপোর্ট
+                করুন</button></a>
+          </div>
         </div>
-        <div class="container mx-auto text-white md:grid lg:grid-cols-3 md:grid-cols-2 gap-5 ms-5 md:mt-10 mt-10">
-            <div class="card-1 max-w-[380px] h-[280px] rounded-[60px] bg-[#0D0F22]">
-                <div class="text-center md:mt-10">
-                    <h1 class="text-4xl font-extrabold md:pt-0 pt-10">*রিপোর্ট*</h1>
-                    <p class="text-2xl font-extrabold mt-5">"দুর্নীতি সম্পর্কে আপনার রিপোর্ট </p>
-                    <p class="text-2xl font-extrabold">জমা দিন এবং সুরক্ষিত থাকুন।"</p>
-                </div>
-                <div class="text-center mt-6">
-                    <a href="#"><button class="w-[80%] h-[50px] rounded-full bg-[#AD8C4C] text-2xl">এখন রিপোর্ট করুন</button></a>
-                </div>
-            </div>
-            <div class="card-2 max-w-[380px] h-[280px] rounded-[60px] bg-[#0D0F22]">
-                <div class="text-center mt-10">
-                    <h1 class="text-4xl font-extrabold md:pt-0 pt-10">*রিপোর্ট ট্র্যাক*</h1>
-                    <p class="text-2xl font-extrabold mt-5">"আপনার রিপোর্টের সর্বশেষ  </p>
-                    <p class="text-2xl font-extrabold">আপডেট ট্র্যাক করুন।"</p>
-                </div>
-                <div class="text-center mt-6">
-                    <a href="#"><button class="w-[80%] h-[50px] rounded-full bg-[#AD8C4C] text-2xl">আপডেট দেখুন</button></a>
-                </div>
-            </div>
-            <div class="card-3 max-w-[380px] h-[280px] rounded-[60px] bg-[#0D0F22]">
-                <div class="text-center mt-10">
-                    <h1 class="text-4xl font-extrabold md:pt-0 pt-10">*মেগা প্রকল্প*</h1>
-                    <p class="text-2xl font-extrabold mt-5">"বড় প্রকল্পগুলোর স্বচ্ছতা নিশ্চিত </p>
-                    <p class="text-2xl font-extrabold">করতে তথ্য দেখুন।"</p>
-                </div>
-                <div class="text-center mt-6">
-                    <a href="#"><button class="w-[80%] h-[50px] rounded-full bg-[#AD8C4C] text-2xl">"প্রকল্প দেখুন"</button></a>
-                </div>
-            </div>
-            <div class="card-4 max-w-[380px] h-[280px] rounded-[60px] bg-[#0D0F22]">
-                <div class="text-center mt-10">
-                    <h1 class="text-4xl font-extrabold md:pt-0 pt-10">*কমিউনিটি*</h1>
-                    <p class="text-2xl font-extrabold mt-5">"দুর্নীতির বিরুদ্ধে মতামত ও  </p>
-                    <p class="text-2xl font-extrabold">অভিজ্ঞতা শেয়ার করুন।"</p>
-                </div>
-                <div class="text-center mt-6">
-                    <a href="#"><button class="w-[80%] h-[50px] rounded-full bg-[#AD8C4C] text-2xl">যোগ দিন</button></a>
-                </div>
-            </div>
-            <div class="card-5 max-w-[380px] h-[280px] rounded-[60px] bg-[#0D0F22]">
-                <div class="text-center mt-10">
-                    <h1 class="text-4xl font-extrabold md:pt-0 pt-10">*রিসোর্স*</h1>
-                    <p class="text-2xl font-extrabold mt-5">"রিসোর্স ব্যবহার করে দুর্নীতির </p>
-                    <p class="text-2xl font-extrabold">বিরুদ্ধে প্রস্তুত হন।"</p>
-                </div>
-                <div class="text-center mt-6">
-                    <a href="#"><button class="w-[80%] h-[50px] rounded-full bg-[#AD8C4C] text-2xl">রিসোর্স দেখুন</button></a>
-                </div>
-            </div>
+        <div class="card-2 max-w-[380px] h-[280px] rounded-[60px] bg-[#0D0F22]">
+          <div class="text-center mt-10">
+            <h1 class="text-4xl font-extrabold md:pt-0 pt-10">*রিপোর্ট ট্র্যাক*</h1>
+            <p class="text-2xl font-extrabold mt-5">"আপনার রিপোর্টের সর্বশেষ </p>
+            <p class="text-2xl font-extrabold">আপডেট ট্র্যাক করুন।"</p>
+          </div>
+          <div class="text-center mt-6">
+            <a href="#"><button class="w-[80%] h-[50px] rounded-full bg-[#AD8C4C] text-2xl">আপডেট দেখুন</button></a>
+          </div>
+        </div>
+        <div class="card-3 max-w-[380px] h-[280px] rounded-[60px] bg-[#0D0F22]">
+          <div class="text-center mt-10">
+            <h1 class="text-4xl font-extrabold md:pt-0 pt-10">*মেগা প্রকল্প*</h1>
+            <p class="text-2xl font-extrabold mt-5">"বড় প্রকল্পগুলোর স্বচ্ছতা নিশ্চিত </p>
+            <p class="text-2xl font-extrabold">করতে তথ্য দেখুন।"</p>
+          </div>
+          <div class="text-center mt-6">
+            <a href="#"><button class="w-[80%] h-[50px] rounded-full bg-[#AD8C4C] text-2xl">"প্রকল্প দেখুন"</button></a>
+          </div>
+        </div>
+        <div class="card-4 max-w-[380px] h-[280px] rounded-[60px] bg-[#0D0F22]">
+          <div class="text-center mt-10">
+            <h1 class="text-4xl font-extrabold md:pt-0 pt-10">*কমিউনিটি*</h1>
+            <p class="text-2xl font-extrabold mt-5">"দুর্নীতির বিরুদ্ধে মতামত ও </p>
+            <p class="text-2xl font-extrabold">অভিজ্ঞতা শেয়ার করুন।"</p>
+          </div>
+          <div class="text-center mt-6">
+            <a href="#"><button class="w-[80%] h-[50px] rounded-full bg-[#AD8C4C] text-2xl">যোগ দিন</button></a>
+          </div>
+        </div>
+        <div class="card-5 max-w-[380px] h-[280px] rounded-[60px] bg-[#0D0F22]">
+          <div class="text-center mt-10">
+            <h1 class="text-4xl font-extrabold md:pt-0 pt-10">*রিসোর্স*</h1>
+            <p class="text-2xl font-extrabold mt-5">"রিসোর্স ব্যবহার করে দুর্নীতির </p>
+            <p class="text-2xl font-extrabold">বিরুদ্ধে প্রস্তুত হন।"</p>
+          </div>
+          <div class="text-center mt-6">
+            <a href="#"><button class="w-[80%] h-[50px] rounded-full bg-[#AD8C4C] text-2xl">রিসোর্স দেখুন</button></a>
+          </div>
+        </div>
 
-        </div>
-    </section>
-
-    <section class="container mx-auto max-w-[1340px] my-14 md:ms-0 ms-[20px]">
-        <div class="w-full text-center my-10">
-            <h1 class="text-4xl font-extrabold text-white">সাম্প্রতিক দুর্নীতি রিপোর্ট</h1>
-        </div>
-        <div class="grid gap-5 justify-center lg:grid-cols-3 md:grid-cols-2 grid-cols-1 text-white">
-            <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
-                <!-- Date Badge -->
-                <div class="bg-white text-[#0f172a] text-sm font-semibold px-3 py-1 rounded-full inline-block absolute right-8 top-11">
-                  ১৫ জানুয়ারি ২০২৫
-                </div>
-              
-                <!-- Image -->
-                <div class="mt-4">
-                  <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
-                </div>
-              
-                <!-- Title -->
-                <h2 class="text-3xl text-[#9C7439] font-bold mt-4">৬০০ কোটি টাকা অপব্যয়</h2>
-              
-                <!-- Details -->
-                <div class="mt-2 text-[15px] space-y-1">
-                  <p ><span class="font-semibold">অবস্থান:</span> ঢাকা, বাংলাদেশ।</p>
-                  <p><span class="font-semibold">প্রকল্পের ধরন:</span> সরকারি নির্মাণ প্রকল্প।</p>
-                  <p><span class="font-semibold">অবস্থা:</span> তদন্তাধীন</p>
-                </div>
-              
-                <!-- Button -->
-                <div class="mt-4">
-                  <button class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg font-semibold py-2 px-4 rounded-lg w-full">
-                    বিস্তারিত দেখুন
-                  </button>
-                </div><br>
-            </div>
-            <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
-                <!-- Date Badge -->
-                <div class="bg-white text-[#0f172a] text-sm font-semibold px-3 py-1 rounded-full inline-block absolute right-8 top-11">
-                  ১৫ জানুয়ারি ২০২৫
-                </div>
-              
-                <!-- Image -->
-                <div class="mt-4">
-                  <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
-                </div>
-              
-                <!-- Title -->
-                <h2 class="text-3xl text-[#9C7439] font-bold mt-4">৬০০ কোটি টাকা অপব্যয়</h2>
-              
-                <!-- Details -->
-                <div class="mt-2 text-[15px] space-y-1">
-                  <p ><span class="font-semibold">অবস্থান:</span> ঢাকা, বাংলাদেশ।</p>
-                  <p><span class="font-semibold">প্রকল্পের ধরন:</span> সরকারি নির্মাণ প্রকল্প।</p>
-                  <p><span class="font-semibold">অবস্থা:</span> তদন্তাধীন</p>
-                </div>
-              
-                <!-- Button -->
-                <div class="mt-4">
-                  <button class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg font-semibold py-2 px-4 rounded-lg w-full">
-                    বিস্তারিত দেখুন
-                  </button>
-                </div><br>
-            </div>
-            <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
-                <!-- Date Badge -->
-                <div class="bg-white text-[#0f172a] text-sm font-semibold px-3 py-1 rounded-full inline-block absolute right-8 top-11">
-                  ১৫ জানুয়ারি ২০২৫
-                </div>
-              
-                <!-- Image -->
-                <div class="mt-4">
-                  <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
-                </div>
-              
-                <!-- Title -->
-                <h2 class="text-3xl text-[#9C7439] font-bold mt-4">৬০০ কোটি টাকা অপব্যয়</h2>
-              
-                <!-- Details -->
-                <div class="mt-2 text-[15px] space-y-1">
-                  <p ><span class="font-semibold">অবস্থান:</span> ঢাকা, বাংলাদেশ।</p>
-                  <p><span class="font-semibold">প্রকল্পের ধরন:</span> সরকারি নির্মাণ প্রকল্প।</p>
-                  <p><span class="font-semibold">অবস্থা:</span> তদন্তাধীন</p>
-                </div>
-              
-                <!-- Button -->
-                <div class="mt-4">
-                  <button class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg font-semibold py-2 px-4 rounded-lg w-full">
-                    বিস্তারিত দেখুন
-                  </button>
-                </div><br>
-            </div>
-            <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
-                <!-- Date Badge -->
-                <div class="bg-white text-[#0f172a] text-sm font-semibold px-3 py-1 rounded-full inline-block absolute right-8 top-11">
-                  ১৫ জানুয়ারি ২০২৫
-                </div>
-              
-                <!-- Image -->
-                <div class="mt-4">
-                  <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
-                </div>
-              
-                <!-- Title -->
-                <h2 class="text-3xl text-[#9C7439] font-bold mt-4">৬০০ কোটি টাকা অপব্যয়</h2>
-              
-                <!-- Details -->
-                <div class="mt-2 text-[15px] space-y-1">
-                  <p ><span class="font-semibold">অবস্থান:</span> ঢাকা, বাংলাদেশ।</p>
-                  <p><span class="font-semibold">প্রকল্পের ধরন:</span> সরকারি নির্মাণ প্রকল্প।</p>
-                  <p><span class="font-semibold">অবস্থা:</span> তদন্তাধীন</p>
-                </div>
-              
-                <!-- Button -->
-                <div class="mt-4">
-                  <button class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg font-semibold py-2 px-4 rounded-lg w-full">
-                    বিস্তারিত দেখুন
-                  </button>
-                </div><br>
-            </div>
-            <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
-                <!-- Date Badge -->
-                <div class="bg-white text-[#0f172a] text-sm font-semibold px-3 py-1 rounded-full inline-block absolute right-8 top-11">
-                  ১৫ জানুয়ারি ২০২৫
-                </div>
-              
-                <!-- Image -->
-                <div class="mt-4">
-                  <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
-                </div>
-              
-                <!-- Title -->
-                <h2 class="text-3xl text-[#9C7439] font-bold mt-4">৬০০ কোটি টাকা অপব্যয়</h2>
-              
-                <!-- Details -->
-                <div class="mt-2 text-[15px] space-y-1">
-                  <p ><span class="font-semibold">অবস্থান:</span> ঢাকা, বাংলাদেশ।</p>
-                  <p><span class="font-semibold">প্রকল্পের ধরন:</span> সরকারি নির্মাণ প্রকল্প।</p>
-                  <p><span class="font-semibold">অবস্থা:</span> তদন্তাধীন</p>
-                </div>
-              
-                <!-- Button -->
-                <div class="mt-4">
-                  <button class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg font-semibold py-2 px-4 rounded-lg w-full">
-                    বিস্তারিত দেখুন
-                  </button>
-                </div><br>
-            </div>
-            <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
-                <!-- Date Badge -->
-                <div class="bg-white text-[#0f172a] text-sm font-semibold px-3 py-1 rounded-full inline-block absolute right-8 top-11">
-                  ১৫ জানুয়ারি ২০২৫
-                </div>
-              
-                <!-- Image -->
-                <div class="mt-4">
-                  <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
-                </div>
-              
-                <!-- Title -->
-                <h2 class="text-3xl text-[#9C7439] font-bold mt-4">৬০০ কোটি টাকা অপব্যয়</h2>
-              
-                <!-- Details -->
-                <div class="mt-2 text-[15px] space-y-1">
-                  <p ><span class="font-semibold">অবস্থান:</span> ঢাকা, বাংলাদেশ।</p>
-                  <p><span class="font-semibold">প্রকল্পের ধরন:</span> সরকারি নির্মাণ প্রকল্প।</p>
-                  <p><span class="font-semibold">অবস্থা:</span> তদন্তাধীন</p>
-                </div>
-              
-                <!-- Button -->
-                <div class="mt-4">
-                  <button class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg font-semibold py-2 px-4 rounded-lg w-full">
-                    বিস্তারিত দেখুন
-                  </button>
-                </div><br>
-            </div>
-              
-        </div>
+      </div>
     </section>
 
     <section class="container mx-auto max-w-[1340px] my-14 md:ms-0 ms-[20px]">
-        <div class="w-full text-center my-10">
-            <h1 class="text-4xl font-extrabold text-white">চলমান মেগা প্রকল্পসমূহ</h1>
+      <div class="w-full text-center my-10">
+        <h1 class="text-4xl font-extrabold text-white">সাম্প্রতিক দুর্নীতি রিপোর্ট</h1>
+      </div>
+      <div class="grid gap-5 justify-center lg:grid-cols-3 md:grid-cols-2 grid-cols-1 text-white">
+        <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
+          <!-- Date Badge -->
+          <div
+            class="bg-white text-[#0f172a] text-sm font-semibold px-3 py-1 rounded-full inline-block absolute right-8 top-11">
+            ১৫ জানুয়ারি ২০২৫
+          </div>
+
+          <!-- Image -->
+          <div class="mt-4">
+            <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
+          </div>
+
+          <!-- Title -->
+          <h2 class="text-3xl text-[#9C7439] font-bold mt-4">৬০০ কোটি টাকা অপব্যয়</h2>
+
+          <!-- Details -->
+          <div class="mt-2 text-[15px] space-y-1">
+            <p><span class="font-semibold">অবস্থান:</span> ঢাকা, বাংলাদেশ।</p>
+            <p><span class="font-semibold">প্রকল্পের ধরন:</span> সরকারি নির্মাণ প্রকল্প।</p>
+            <p><span class="font-semibold">অবস্থা:</span> তদন্তাধীন</p>
+          </div>
+
+          <!-- Button -->
+          <div class="mt-4">
+            <button
+              class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg font-semibold py-2 px-4 rounded-lg w-full">
+              বিস্তারিত দেখুন
+            </button>
+          </div><br>
         </div>
-        <div class="grid gap-5 justify-center lg:grid-cols-3 md:grid-cols-2 grid-cols-1 text-white">
-            <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
-                <!-- Image -->
-                <div class="mt-4">
-                  <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
-                </div>
-              
-                <!-- Title -->
-                <h2 class="text-3xl text-[#9C7439] font-bold mt-4">পদ্মা বহুমুখী সেতু</h2>
-              
-                <!-- Details -->
-                <div class="mt-2 max-w-[375px] text-md space-y-1">
-                    পদ্মা সেতু বা পদ্মা বহুমুখী সেতু হচ্ছে বাংলাদেশের পদ্মা নদীর উপর নির্মিত একটি বহুমুখী সড়ক ও রেল সেতু। এর মাধ্যমে মুন্সীগঞ্জের লৌহজংয়ের সাথে শরীয়তপুর ও মাদারীপর জেলা যুক্ত হয়েছে। সেতুটি ২০২২ সালের ২৫ জুন উদ্বোধন করা হয়।
-                </div>
-              
-                <!-- Button -->
-                <div class="mt-4">
-                  <button class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg  font-extrabold py-2 px-4 rounded-lg w-full">
-                    বিস্তারিত দেখুন
-                  </button>
-                </div><br>
-            </div>
-            <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
-                <!-- Image -->
-                <div class="mt-4">
-                  <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
-                </div>
-              
-                <!-- Title -->
-                <h2 class="text-3xl text-[#9C7439] font-bold mt-4">পদ্মা বহুমুখী সেতু</h2>
-              
-                <!-- Details -->
-                <div class="mt-2 max-w-[375px] text-md space-y-1">
-                    পদ্মা সেতু বা পদ্মা বহুমুখী সেতু হচ্ছে বাংলাদেশের পদ্মা নদীর উপর নির্মিত একটি বহুমুখী সড়ক ও রেল সেতু। এর মাধ্যমে মুন্সীগঞ্জের লৌহজংয়ের সাথে শরীয়তপুর ও মাদারীপর জেলা যুক্ত হয়েছে। সেতুটি ২০২২ সালের ২৫ জুন উদ্বোধন করা হয়।
-                </div>
-              
-                <!-- Button -->
-                <div class="mt-4">
-                  <button class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg  font-extrabold py-2 px-4 rounded-lg w-full">
-                    বিস্তারিত দেখুন
-                  </button>
-                </div><br>
-            </div>
-            <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
-                <!-- Image -->
-                <div class="mt-4">
-                  <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
-                </div>
-              
-                <!-- Title -->
-                <h2 class="text-3xl text-[#9C7439] font-bold mt-4">পদ্মা বহুমুখী সেতু</h2>
-              
-                <!-- Details -->
-                <div class="mt-2 max-w-[375px] text-md space-y-1">
-                    পদ্মা সেতু বা পদ্মা বহুমুখী সেতু হচ্ছে বাংলাদেশের পদ্মা নদীর উপর নির্মিত একটি বহুমুখী সড়ক ও রেল সেতু। এর মাধ্যমে মুন্সীগঞ্জের লৌহজংয়ের সাথে শরীয়তপুর ও মাদারীপর জেলা যুক্ত হয়েছে। সেতুটি ২০২২ সালের ২৫ জুন উদ্বোধন করা হয়।
-                </div>
-              
-                <!-- Button -->
-                <div class="mt-4">
-                  <button class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg  font-extrabold py-2 px-4 rounded-lg w-full">
-                    বিস্তারিত দেখুন
-                  </button>
-                </div><br>
-            </div>
-              
+        <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
+          <!-- Date Badge -->
+          <div
+            class="bg-white text-[#0f172a] text-sm font-semibold px-3 py-1 rounded-full inline-block absolute right-8 top-11">
+            ১৫ জানুয়ারি ২০২৫
+          </div>
+
+          <!-- Image -->
+          <div class="mt-4">
+            <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
+          </div>
+
+          <!-- Title -->
+          <h2 class="text-3xl text-[#9C7439] font-bold mt-4">৬০০ কোটি টাকা অপব্যয়</h2>
+
+          <!-- Details -->
+          <div class="mt-2 text-[15px] space-y-1">
+            <p><span class="font-semibold">অবস্থান:</span> ঢাকা, বাংলাদেশ।</p>
+            <p><span class="font-semibold">প্রকল্পের ধরন:</span> সরকারি নির্মাণ প্রকল্প।</p>
+            <p><span class="font-semibold">অবস্থা:</span> তদন্তাধীন</p>
+          </div>
+
+          <!-- Button -->
+          <div class="mt-4">
+            <button
+              class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg font-semibold py-2 px-4 rounded-lg w-full">
+              বিস্তারিত দেখুন
+            </button>
+          </div><br>
         </div>
+        <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
+          <!-- Date Badge -->
+          <div
+            class="bg-white text-[#0f172a] text-sm font-semibold px-3 py-1 rounded-full inline-block absolute right-8 top-11">
+            ১৫ জানুয়ারি ২০২৫
+          </div>
+
+          <!-- Image -->
+          <div class="mt-4">
+            <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
+          </div>
+
+          <!-- Title -->
+          <h2 class="text-3xl text-[#9C7439] font-bold mt-4">৬০০ কোটি টাকা অপব্যয়</h2>
+
+          <!-- Details -->
+          <div class="mt-2 text-[15px] space-y-1">
+            <p><span class="font-semibold">অবস্থান:</span> ঢাকা, বাংলাদেশ।</p>
+            <p><span class="font-semibold">প্রকল্পের ধরন:</span> সরকারি নির্মাণ প্রকল্প।</p>
+            <p><span class="font-semibold">অবস্থা:</span> তদন্তাধীন</p>
+          </div>
+
+          <!-- Button -->
+          <div class="mt-4">
+            <button
+              class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg font-semibold py-2 px-4 rounded-lg w-full">
+              বিস্তারিত দেখুন
+            </button>
+          </div><br>
+        </div>
+        <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
+          <!-- Date Badge -->
+          <div
+            class="bg-white text-[#0f172a] text-sm font-semibold px-3 py-1 rounded-full inline-block absolute right-8 top-11">
+            ১৫ জানুয়ারি ২০২৫
+          </div>
+
+          <!-- Image -->
+          <div class="mt-4">
+            <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
+          </div>
+
+          <!-- Title -->
+          <h2 class="text-3xl text-[#9C7439] font-bold mt-4">৬০০ কোটি টাকা অপব্যয়</h2>
+
+          <!-- Details -->
+          <div class="mt-2 text-[15px] space-y-1">
+            <p><span class="font-semibold">অবস্থান:</span> ঢাকা, বাংলাদেশ।</p>
+            <p><span class="font-semibold">প্রকল্পের ধরন:</span> সরকারি নির্মাণ প্রকল্প।</p>
+            <p><span class="font-semibold">অবস্থা:</span> তদন্তাধীন</p>
+          </div>
+
+          <!-- Button -->
+          <div class="mt-4">
+            <button
+              class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg font-semibold py-2 px-4 rounded-lg w-full">
+              বিস্তারিত দেখুন
+            </button>
+          </div><br>
+        </div>
+        <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
+          <!-- Date Badge -->
+          <div
+            class="bg-white text-[#0f172a] text-sm font-semibold px-3 py-1 rounded-full inline-block absolute right-8 top-11">
+            ১৫ জানুয়ারি ২০২৫
+          </div>
+
+          <!-- Image -->
+          <div class="mt-4">
+            <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
+          </div>
+
+          <!-- Title -->
+          <h2 class="text-3xl text-[#9C7439] font-bold mt-4">৬০০ কোটি টাকা অপব্যয়</h2>
+
+          <!-- Details -->
+          <div class="mt-2 text-[15px] space-y-1">
+            <p><span class="font-semibold">অবস্থান:</span> ঢাকা, বাংলাদেশ।</p>
+            <p><span class="font-semibold">প্রকল্পের ধরন:</span> সরকারি নির্মাণ প্রকল্প।</p>
+            <p><span class="font-semibold">অবস্থা:</span> তদন্তাধীন</p>
+          </div>
+
+          <!-- Button -->
+          <div class="mt-4">
+            <button
+              class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg font-semibold py-2 px-4 rounded-lg w-full">
+              বিস্তারিত দেখুন
+            </button>
+          </div><br>
+        </div>
+        <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
+          <!-- Date Badge -->
+          <div
+            class="bg-white text-[#0f172a] text-sm font-semibold px-3 py-1 rounded-full inline-block absolute right-8 top-11">
+            ১৫ জানুয়ারি ২০২৫
+          </div>
+
+          <!-- Image -->
+          <div class="mt-4">
+            <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
+          </div>
+
+          <!-- Title -->
+          <h2 class="text-3xl text-[#9C7439] font-bold mt-4">৬০০ কোটি টাকা অপব্যয়</h2>
+
+          <!-- Details -->
+          <div class="mt-2 text-[15px] space-y-1">
+            <p><span class="font-semibold">অবস্থান:</span> ঢাকা, বাংলাদেশ।</p>
+            <p><span class="font-semibold">প্রকল্পের ধরন:</span> সরকারি নির্মাণ প্রকল্প।</p>
+            <p><span class="font-semibold">অবস্থা:</span> তদন্তাধীন</p>
+          </div>
+
+          <!-- Button -->
+          <div class="mt-4">
+            <button
+              class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg font-semibold py-2 px-4 rounded-lg w-full">
+              বিস্তারিত দেখুন
+            </button>
+          </div><br>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="container mx-auto max-w-[1340px] my-14 md:ms-0 ms-[20px]">
+      <div class="w-full text-center my-10">
+        <h1 class="text-4xl font-extrabold text-white">চলমান মেগা প্রকল্পসমূহ</h1>
+      </div>
+      <div class="grid gap-5 justify-center lg:grid-cols-3 md:grid-cols-2 grid-cols-1 text-white">
+        <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
+          <!-- Image -->
+          <div class="mt-4">
+            <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
+          </div>
+
+          <!-- Title -->
+          <h2 class="text-3xl text-[#9C7439] font-bold mt-4">পদ্মা বহুমুখী সেতু</h2>
+
+          <!-- Details -->
+          <div class="mt-2 max-w-[375px] text-md space-y-1">
+            পদ্মা সেতু বা পদ্মা বহুমুখী সেতু হচ্ছে বাংলাদেশের পদ্মা নদীর উপর নির্মিত একটি বহুমুখী সড়ক ও রেল সেতু। এর
+            মাধ্যমে মুন্সীগঞ্জের লৌহজংয়ের সাথে শরীয়তপুর ও মাদারীপর জেলা যুক্ত হয়েছে। সেতুটি ২০২২ সালের ২৫ জুন উদ্বোধন
+            করা হয়।
+          </div>
+
+          <!-- Button -->
+          <div class="mt-4">
+            <button
+              class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg  font-extrabold py-2 px-4 rounded-lg w-full">
+              বিস্তারিত দেখুন
+            </button>
+          </div><br>
+        </div>
+        <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
+          <!-- Image -->
+          <div class="mt-4">
+            <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
+          </div>
+
+          <!-- Title -->
+          <h2 class="text-3xl text-[#9C7439] font-bold mt-4">পদ্মা বহুমুখী সেতু</h2>
+
+          <!-- Details -->
+          <div class="mt-2 max-w-[375px] text-md space-y-1">
+            পদ্মা সেতু বা পদ্মা বহুমুখী সেতু হচ্ছে বাংলাদেশের পদ্মা নদীর উপর নির্মিত একটি বহুমুখী সড়ক ও রেল সেতু। এর
+            মাধ্যমে মুন্সীগঞ্জের লৌহজংয়ের সাথে শরীয়তপুর ও মাদারীপর জেলা যুক্ত হয়েছে। সেতুটি ২০২২ সালের ২৫ জুন উদ্বোধন
+            করা হয়।
+          </div>
+
+          <!-- Button -->
+          <div class="mt-4">
+            <button
+              class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg  font-extrabold py-2 px-4 rounded-lg w-full">
+              বিস্তারিত দেখুন
+            </button>
+          </div><br>
+        </div>
+        <div class="max-w-[413px] bg-[#ffffff0d] px-[20px] py-[10px] pt-5 rounded-[40px] relative">
+          <!-- Image -->
+          <div class="mt-4">
+            <img src="./images/Frame 27.png" alt="Construction Image" class="rounded-lg w-full" />
+          </div>
+
+          <!-- Title -->
+          <h2 class="text-3xl text-[#9C7439] font-bold mt-4">পদ্মা বহুমুখী সেতু</h2>
+
+          <!-- Details -->
+          <div class="mt-2 max-w-[375px] text-md space-y-1">
+            পদ্মা সেতু বা পদ্মা বহুমুখী সেতু হচ্ছে বাংলাদেশের পদ্মা নদীর উপর নির্মিত একটি বহুমুখী সড়ক ও রেল সেতু। এর
+            মাধ্যমে মুন্সীগঞ্জের লৌহজংয়ের সাথে শরীয়তপুর ও মাদারীপর জেলা যুক্ত হয়েছে। সেতুটি ২০২২ সালের ২৫ জুন উদ্বোধন
+            করা হয়।
+          </div>
+
+          <!-- Button -->
+          <div class="mt-4">
+            <button
+              class="bg-yellow-500 hover:bg-yellow-600 text-[#0f172a] text-lg  font-extrabold py-2 px-4 rounded-lg w-full">
+              বিস্তারিত দেখুন
+            </button>
+          </div><br>
+        </div>
+
+      </div>
     </section>
 
     <section class="container mx-auto max-w-[1340px] my-14 bg-white  rounded-[48px] md:ms-0 ms-[20px]">
-        <div class="w-full text-center text-[56px] font-extrabold pt-8">"একসাথে গড়ে তুলি দুর্নীতিমুক্ত বাংলাদেশ।"</div>
-        <div class="w-full text-center text-[32px]  pt-5">স্বচ্ছতা দিয়ে শুরু হোক আমাদের নতুন পথচলা।</div>
-        <div class="w-full text-center pt-5">
-            <a href="#"><button class="w-[325px] rounded-full bg-[#000216] h-[70px] text-white text-[28px] font-bold">দুর্নীতি রিপোর্ট করুন</button></a>
-        </div><br><br>
+      <div class="w-full text-center text-[56px] font-extrabold pt-8">"একসাথে গড়ে তুলি দুর্নীতিমুক্ত বাংলাদেশ।"</div>
+      <div class="w-full text-center text-[32px]  pt-5">স্বচ্ছতা দিয়ে শুরু হোক আমাদের নতুন পথচলা।</div>
+      <div class="w-full text-center pt-5">
+        <a href="#"><button
+            class="w-[325px] rounded-full bg-[#000216] h-[70px] text-white text-[28px] font-bold">দুর্নীতি রিপোর্ট
+            করুন</button></a>
+      </div><br><br>
     </section>
+
+    <section>
+      <div class="flex justify-center order-1">
+        <div class="md:max-w-[855px] h-[60px] text-center">
+          <ul class="md:flex md:justify-between gap-10 text-white">
+            <li class="max-w-[180px] px-4 py-3"><a class="text-[20px] font-bold" href="#">আমাদের সম্পর্কে</a></li>
+            <li class="max-w-[180px] px-4 py-3"><a class="text-[20px] font-bold" href="#">যোগাযোগ করুন</a></li>
+            <li class="max-w-[180px] px-4 py-3"><a class="text-[20px] font-bold" href="#">গোপনীয়তা নীতি</a></li>
+            <li class="max-w-[180px] px-4 py-3"><a class="text-[20px] font-bold" href="#">শর্তাবলী দেখুন</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-[2px] bg-slate-400 md:my-10 mt-[180px]"></div>
+    </section>
+    <section>
+      <div class="icon flex justify-center gap-4 mt-5">
+        <a href="#"><img src="./images/Frame 44.png" alt=""></a>
+        <a href="#"><img src="./images/Frame 45.png" alt=""></a>
+        <a href="#"><img src="./images/Frame 46.png" alt=""></a>
+      </div>
+    </section>
+    <section class="max-w-[1340px] h-[100px] flex justify-center items-center text-white my-5">
+      <div class="flex ">
+        <img src="./images/Frame.png" alt="" class="w-[24px] h-[24px]">
+        <a href="#" class="text-[20px] font-bold">২০২৫ স্বচ্ছতা । সকল অধিকার সংরক্ষিত।</a>
+      </div>
+    </section>
+
+    <section class="flex justify-center fixed bottom-[25px] left-0 right-0">
+      <div class="fixed_navbar md:w-[930px] sm:w-[600px] w-[400px] h-[90px] bg-white rounded-full flex justify-center items-center">
+        <ul class="flex justify-around md:gap-12 lg:text-[24px] sm:text-[18px] text-[13px] sm:gap-5 gap-3">
+          <li class="bg-black lg:px-8 px-5 py-3 text-white rounded-full"><a href="#">হোম</a></li>
+          <li class="py-3"><a href="#">রিপোর্ট</a></li>
+          <li class="py-3"><a href="#">রিপোর্ট ট্র্যাক</a></li>
+          <li class="py-3"><a href="#">মেগা প্রকল্প</a></li>
+          <li class="py-3"><a href="#">কমিউনিটি</a></li>
+          <li class="py-3"><a href="#">রিসোর্স</a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
 </body>
 
 </html>
